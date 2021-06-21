@@ -1,0 +1,25 @@
+{
+  "name": "react_default",
+  "version": "1.0.0",
+  "description": "set up configuration for reactJS, eslint babale webpack on expressJS",
+  "main": "src/index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dplopezsioux/react_default.git"
+  },
+  "author": "dplopez.sioux@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dplopezsioux/react_default/issues"
+  },
+  "homepage": "https://github.com/dplopezsioux/react_default#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
